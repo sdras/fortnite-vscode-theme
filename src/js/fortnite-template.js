@@ -4,42 +4,40 @@
   bodyNode.setAttribute('id', 'fortnite-test')
 
   // Replace the styles with the glow theme
-  const initLegendary = (disableGlow, obs) => {
+  const initLegendary = (obs) => {
     let themeStyleTag = document.querySelector('.vscode-tokens-styles')
     if (!themeStyleTag) return
     let updatedThemeStyles = themeStyleTag.innerText
 
-    if (!disableGlow) {
-      /* replace red */
-      updatedThemeStyles = updatedThemeStyles.replace(
-        /color: #fe4450;/g,
-        'color: #fff5f6; text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c[LEGENDARY_BRIGHTNESS], 0 0 5px #fc1f2c[LEGENDARY_BRIGHTNESS], 0 0 25px #fc1f2c[LEGENDARY_BRIGHTNESS];'
-      )
+    /* replace red */
+    updatedThemeStyles = updatedThemeStyles.replace(
+      /color: #fe4450;/g,
+      'color: #fff5f6; text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c[LEGENDARY_BRIGHTNESS], 0 0 5px #fc1f2c[LEGENDARY_BRIGHTNESS], 0 0 25px #fc1f2c[LEGENDARY_BRIGHTNESS];'
+    )
 
-      /* replace pink */
-      updatedThemeStyles = updatedThemeStyles.replace(
-        /color: #ff7edb;/g,
-        'color: #f92aad; text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;'
-      )
+    /* replace pink */
+    updatedThemeStyles = updatedThemeStyles.replace(
+      /color: #ff7edb;/g,
+      'color: #f92aad; text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;'
+    )
 
-      /* replace yellow */
-      updatedThemeStyles = updatedThemeStyles.replace(
-        /color: #e5c07b;/g,
-        'color: #efe5d3; text-shadow: 0 0 2px #0e0119, 0 0 8px #ef7b05[LEGENDARY_BRIGHTNESS], 0 0 2px #f3a007[LEGENDARY_BRIGHTNESS];'
-      )
+    /* replace yellow */
+    updatedThemeStyles = updatedThemeStyles.replace(
+      /color: #f9dea6;/g,
+      'color: #efe5d3; text-shadow: 0 0 2px #0e0119, 0 0 8px #ef7b05cc, 0 0 2px #f3a007cc;'
+    )
 
-      /* replace green */
-      updatedThemeStyles = updatedThemeStyles.replace(
-        /color: #72f1b8;/g,
-        'color: #72f1b8; text-shadow: 0 0 2px #100c0f, 0 0 10px #257c55[LEGENDARY_BRIGHTNESS], 0 0 35px #212724[LEGENDARY_BRIGHTNESS];'
-      )
+    /* replace green */
+    updatedThemeStyles = updatedThemeStyles.replace(
+      /color: #72f1b8;/g,
+      'color: #72f1b8; text-shadow: 0 0 2px #100c0f, 0 0 10px #257c55[LEGENDARY_BRIGHTNESS], 0 0 35px #212724[LEGENDARY_BRIGHTNESS];'
+    )
 
-      /* replace blue */
-      updatedThemeStyles = updatedThemeStyles.replace(
-        /color: #36f9f6;/g,
-        'color: #fdfdfd; text-shadow: 0 0 2px #001716, 0 0 3px #03edf9[LEGENDARY_BRIGHTNESS], 0 0 5px #03edf9[LEGENDARY_BRIGHTNESS], 0 0 8px #03edf9[LEGENDARY_BRIGHTNESS];'
-      )
-    }
+    /* replace blue */
+    updatedThemeStyles = updatedThemeStyles.replace(
+      /color: #36f9f6;/g,
+      'color: #fdfdfd; text-shadow: 0 0 2px #001716, 0 0 3px #03edf9[LEGENDARY_BRIGHTNESS], 0 0 5px #03edf9[LEGENDARY_BRIGHTNESS], 0 0 8px #03edf9[LEGENDARY_BRIGHTNESS];'
+    )
 
     /* append the remaining styles */
     updatedThemeStyles = `${updatedThemeStyles}[CHROME_STYLES]`
@@ -88,14 +86,14 @@
 
         // Everything we need is ready, so initialize
         if (isUsingFortnite && tokensLoaded && tokenStyles) {
-          initLegendary([DISABLE_GLOW], observer)
+          initLegendary(observer)
         }
       }
     }
   }
 
   // try to initialize the theme
-  initLegendary([DISABLE_GLOW])
+  initLegendary()
 
   // Use a mutation observer to check when we can bootstrap the theme
   const observer = new MutationObserver(watchForBootstrap)
