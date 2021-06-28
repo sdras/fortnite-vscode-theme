@@ -39,7 +39,7 @@
       {
         "label": "Fortnite",
         "uiTheme": "vs-dark",
-        "path": "./themes/fortnite.json"
+        "path": "./themes/fortnite-color-theme.json"
       }
     ],
     "commands": [
