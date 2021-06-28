@@ -34,7 +34,7 @@
     "editorSuggestWidget.selectedBackground": "#36194D",
     "editorWidget.background": "#12061A",
     "editorWidget.border": "#3A3F4B",
-    "input.background": "#1B1D23",
+    "input.background": "#36194d",
     "input.border": "#181A1F",
     "focusBorder": "#528BFF",
     "list.activeSelectionBackground": "#36194D",
@@ -71,19 +71,19 @@
     "peekView.border": "#528BFF",
     "peekViewResult.background": "#12061A",
     "peekViewResult.selectionBackground": "#36194D",
-    "peekViewTitle.background": "#1B1D23",
-    "peekViewEditor.background": "#1B1D23"
+    "peekViewTitle.background": "#36194d",
+    "peekViewEditor.background": "#36194d"
   },
   "tokenColors": [
     {
       "name": "Comment",
       "scope": ["comment"],
-      "settings": { "foreground": "#5C6370", "fontStyle": "italic" }
+      "settings": { "foreground": "#7684a0cc", "fontStyle": "italic" }
     },
     {
       "name": "Comment Markup Link",
       "scope": ["comment markup.link"],
-      "settings": { "foreground": "#5C6370" }
+      "settings": { "foreground": "#7684a0" }
     },
     {
       "name": "Entity Name Type",
@@ -208,7 +208,7 @@
     {
       "name": "Punctuation Definition Comment",
       "scope": ["punctuation.definition.comment"],
-      "settings": { "foreground": "#5C6370" }
+      "settings": { "foreground": "#7684a0" }
     },
     {
       "name": "Punctuation Definition Method Parameters,punctuation Definition Function Parameters,punctuation Definition Parameters,punctuation Definition Separator,punctuation Definition Seperator,punctuation Definition Array",
@@ -1312,7 +1312,7 @@
     {
       "name": "[VSCODE-CUSTOM] Markdown Quote",
       "scope": "markup.quote.markdown",
-      "settings": { "foreground": "#5C6370", "fontStyle": "italic" }
+      "settings": { "foreground": "#7684a0", "fontStyle": "italic" }
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown Punctuation Definition String",
