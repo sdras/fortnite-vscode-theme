@@ -2,7 +2,7 @@
   "name": "fortnite-vscode-theme",
   "displayName": "Fortnite VS Code Theme",
   "description": "A Fortnite-inspired color theme for childlike happiness even while doing serious programming",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "sdras",
   "license": "MIT",
   "galleryBanner": {
@@ -16,11 +16,15 @@
     "Themes"
   ],
   "keywords": [
-    "theme",
-    "dark",
     "flamebows",
     "gaming",
-    "play"
+    "play",
+    "battle royal",
+    "shields",
+    "chickens",
+    "tacos",
+    "theme",
+    "dark"
   ],
   "icon": "icon.png",
   "contributes": {
@@ -40,22 +44,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/sdras/fortnite-vscode-theme"
-  },
-  "badges": [
-    {
-      "url": "https://vsmarketplacebadge.apphb.com/version/sdras/fortnite-vscode-theme.svg",
-      "href": "https://marketplace.visualstudio.com/items/sdras/fortnite-vscode-theme",
-      "description": "Extension version"
-    },
-    {
-      "url": "https://vsmarketplacebadge.apphb.com/installs/sdras/fortnite-vscode-theme.svg",
-      "href": "https://marketplace.visualstudio.com/items/sdras/fortnite-vscode-theme",
-      "description": "Extension installs"
-    },
-    {
-      "url": "https://vsmarketplacebadge.apphb.com/rating/sdras/fortnite-vscode-theme.svg",
-      "href": "https://marketplace.visualstudio.com/items/sdras/fortnite-vscode-theme",
-      "description": "Extension Rating"
-    }
-  ]
+  }
 }
