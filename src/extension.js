@@ -40,7 +40,7 @@ function activate(context) {
       try {
         // generate production theme JS
         const chromeStyles = fs.readFileSync(
-          __dirname + '/css/fortnite-chrome.css',
+          __dirname + '/css/fortnite.css',
           'utf-8'
         )
         const jsTemplate = fs.readFileSync(

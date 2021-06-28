@@ -148,7 +148,7 @@
     {
       "name": "Constant Character Escape",
       "scope": ["constant.character.escape"],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "Constant Numeric",
@@ -158,12 +158,12 @@
     {
       "name": "Constant Other Color",
       "scope": ["constant.other.color"],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "Constant Other Symbol",
       "scope": ["constant.other.symbol"],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "Variable",
@@ -193,12 +193,12 @@
     {
       "name": "String Regexp",
       "scope": ["string.regexp"],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "String Regexp Source Ruby Embedded",
       "scope": ["string.regexp source.ruby.embedded"],
-      "settings": { "foreground": "#8cefd8" }
+      "settings": { "foreground": "#ef5ea0" }
     },
     {
       "name": "String Other Link",
@@ -257,17 +257,17 @@
     {
       "name": "Support Class",
       "scope": ["support.class"],
-      "settings": { "foreground": "#8cefd8" }
+      "settings": { "foreground": "#ef5ea0" }
     },
     {
       "name": "Support Type",
       "scope": ["support.type"],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "Support Function",
       "scope": ["support.function"],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "Support Function Any Method",
@@ -282,7 +282,7 @@
     {
       "name": "Entity Name Class,entity Name Type Class",
       "scope": ["entity.name.class", "entity.name.type.class"],
-      "settings": { "foreground": "#8cefd8" }
+      "settings": { "foreground": "#ef5ea0" }
     },
     {
       "name": "Entity Name Section",
@@ -402,7 +402,7 @@
     {
       "name": "Markup Link",
       "scope": ["markup.link"],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "Markup Inserted",
@@ -565,7 +565,7 @@
     {
       "name": "Source Js Keyword Operator",
       "scope": ["source.js keyword.operator"],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void",
@@ -583,12 +583,12 @@
     {
       "name": "Source Ts Keyword Operator",
       "scope": ["source.ts keyword.operator"],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "Source Flow Keyword Operator",
       "scope": ["source.flow keyword.operator"],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "Source Json Meta Structure Dictionary Json > String Quoted Json",
@@ -620,7 +620,7 @@
         "source.json meta.structure.dictionary.json > constant.language.json",
         "source.json meta.structure.array.json > constant.language.json"
       ],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "Ng Interpolation",
@@ -663,7 +663,7 @@
     {
       "name": "Ng Tag",
       "scope": ["ng.tag"],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "Ng Attribute With Value Attribute Name",
@@ -740,7 +740,7 @@
         "punctuation.separator.key-value.js",
         "punctuation.separator.key-value.tsx"
       ],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Embedded Operator",
@@ -748,7 +748,7 @@
         "source.js.embedded.html keyword.operator",
         "source.ts.embedded.html keyword.operator"
       ],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Variable Other Readwrite",
@@ -915,7 +915,7 @@
     {
       "name": "[VSCODE-CUSTOM] TS Keyword Operator",
       "scope": ["source.ts keyword.operator", "source.tsx keyword.operator"],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Punctuation Parameter Separator",
@@ -940,7 +940,7 @@
         "constant.language.import-export-all.jsx",
         "constant.language.import-export-all.tsx"
       ],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Keyword Control As",
@@ -1072,7 +1072,7 @@
     {
       "name": "[VSCODE-CUSTOM] JSON Constants",
       "scope": ["constant.language.json"],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Object Constants",
@@ -1092,7 +1092,7 @@
         "storage.type.property.ts",
         "storage.type.property.tsx"
       ],
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Single Quote Inside Templated String",
@@ -1132,7 +1132,7 @@
     {
       "name": "[VSCODE-CUSTOM] JS/TS Meta Object Literal Key",
       "scope": ["meta.object-literal.key.js", "meta.object-literal.key.ts"],
-      "settings": { "foreground": "#e0efa6" }
+      "settings": { "foreground": "#cfe08a" }
     },
     {
       "name": "[VSCODE-CUSTOM] Python Constants Other",
@@ -1212,7 +1212,7 @@
     {
       "name": "[VSCODE-CUSTOM] Rust Entity Name Type",
       "scope": "entity.name.type.rust",
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "[VSCODE-CUSTOM] Rust Storage Modifier Lifetime",
@@ -1227,7 +1227,7 @@
     {
       "name": "[VSCODE-CUSTOM] Rust Storage Type Core",
       "scope": "storage.type.core.rust",
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "[VSCODE-CUSTOM] Rust Meta Attribute",
@@ -1237,7 +1237,7 @@
     {
       "name": "[VSCODE-CUSTOM] Rust Storage Class Std",
       "scope": "storage.class.std.rust",
-      "settings": { "foreground": "#69eeef" }
+      "settings": { "foreground": "#5adfe0" }
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown Raw Block",

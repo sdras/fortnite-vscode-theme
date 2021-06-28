@@ -5,14 +5,9 @@
 
   // Replace the styles with the glow theme
   const initLegendary = (disableGlow, obs) => {
-    var themeStyleTag = document.querySelector('.vscode-tokens-styles')
-    if (!themeStyleTag) {
-      return
-    }
-
-    var initialThemeStyles = themeStyleTag.innerText
-
-    var updatedThemeStyles = initialThemeStyles
+    let themeStyleTag = document.querySelector('.vscode-tokens-styles')
+    if (!themeStyleTag) return
+    let updatedThemeStyles = themeStyleTag.innerText
 
     if (!disableGlow) {
       /* replace red */
@@ -72,10 +67,6 @@
         )
         // does the style div exist yet?
         const tokensLoaded = document.querySelector('.vscode-tokens-styles')
-        // does it have content ?
-        const tokenStyles = document.querySelector(
-          '.vscode-tokens-styles'
-        ).innerText
 
         // sometimes VS code takes a while to init the styles content, so stop this observer and add an observer for that
         if (isUsingFortnite && tokensLoaded) {
