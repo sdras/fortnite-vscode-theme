@@ -1,6 +1,6 @@
 # Fortnite VS Code Theme
 
-![Banner](./banner.png)
+![Banner](https://raw.githubusercontent.com/sdras/fortnite-vscode-theme/master/banner.png)
 
 🐔 Are you a child at heart? Do you like enjoying yourself, even while writing serious business logic? If you like taking a flame bow and igniting data structures on fire, this is the theme for you.
 
@@ -12,7 +12,7 @@ This theme is inspired by Fortnite, which is a game that's basically like the Hu
 
 Enjoy! ✨
 
-![Theme](./theme.png)
+![Theme](https://raw.githubusercontent.com/sdras/fortnite-vscode-theme/master/theme.png)
 
 ## Installation
 
