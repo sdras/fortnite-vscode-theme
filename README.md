@@ -10,7 +10,7 @@ This theme is inspired by Fortnite, which is a game that's basically like the Hu
 
 Enjoy! ✨
 
-![Theme](./theme.jpg)
+![Theme](./theme.png)
 
 ## Installation
 
