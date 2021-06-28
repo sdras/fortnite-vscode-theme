@@ -9,16 +9,10 @@
     if (!themeStyleTag) return
     let updatedThemeStyles = themeStyleTag.innerText
 
-    /* replace red */
+    /* replace magenta */
     updatedThemeStyles = updatedThemeStyles.replace(
       /color: #fe4450;/g,
-      'color: #fff5f6; text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c[LEGENDARY_BRIGHTNESS], 0 0 5px #fc1f2c[LEGENDARY_BRIGHTNESS], 0 0 25px #fc1f2c[LEGENDARY_BRIGHTNESS];'
-    )
-
-    /* replace pink */
-    updatedThemeStyles = updatedThemeStyles.replace(
-      /color: #ff7edb;/g,
-      'color: #f92aad; text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;'
+      'color: #ef5ea0; text-shadow: 0 0 2px #000000, 0 0 8px #bf226a, 0 0 2px #ef5ea0;'
     )
 
     /* replace yellow */
@@ -27,16 +21,16 @@
       'color: #efe5d3; text-shadow: 0 0 2px #0e0119, 0 0 8px #ef7b05cc, 0 0 2px #f3a007cc;'
     )
 
-    /* replace green */
+    /* replace teal */
     updatedThemeStyles = updatedThemeStyles.replace(
-      /color: #72f1b8;/g,
-      'color: #72f1b8; text-shadow: 0 0 2px #100c0f, 0 0 10px #257c55[LEGENDARY_BRIGHTNESS], 0 0 35px #212724[LEGENDARY_BRIGHTNESS];'
+      /color: #8cefd8;/g,
+      'color: #8cefd8; text-shadow: 0 0 2px #0e0119, 0 0 6px #40aeb9cc;'
     )
 
-    /* replace blue */
+    /* replace green */
     updatedThemeStyles = updatedThemeStyles.replace(
-      /color: #36f9f6;/g,
-      'color: #fdfdfd; text-shadow: 0 0 2px #001716, 0 0 3px #03edf9[LEGENDARY_BRIGHTNESS], 0 0 5px #03edf9[LEGENDARY_BRIGHTNESS], 0 0 8px #03edf9[LEGENDARY_BRIGHTNESS];'
+      /color: #cfe08a;/g,
+      'color: #cfe08a; text-shadow: 0 0 2px #000000, 0 0 5px #5ca2cc;'
     )
 
     /* append the remaining styles */
