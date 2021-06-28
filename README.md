@@ -8,7 +8,7 @@ This theme is inspired by Fortnite, which is a game that's basically like the Hu
 
 Enjoy! 🛸
 
-![Theme](https://raw.githubusercontent.com/sdras/fortnite-vscode-theme/master/js-demo.png)
+![Theme](https://github.com/sdras/fortnite-vscode-theme/blob/master/theme.png?raw=true)
 
 ## Installation
 
