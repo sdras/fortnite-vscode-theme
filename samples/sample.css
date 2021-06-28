@@ -1,0 +1,17 @@
+
+p:first-letter{
+	display:block;
+	margin:5px 0 0 5px;
+	float:left;
+	color:#FF3366;
+	font-size:60px;
+	font-family:Georgia;
+}
+
+p {
+    margin: 10px;
+}
+
+.class {
+    margin: 10px;
+}

@@ -1,0 +1,61 @@
+{
+  "name": "fortnite-vscode-theme",
+  "displayName": "Fortnite VS Code Theme",
+  "description": "A Fortnite-inspired color theme for childlike happiness even while doing serious programming",
+  "version": "0.1.0",
+  "publisher": "sarah.drasner",
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#282C34",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "flamebows",
+    "gaming",
+    "play"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fortnite",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fortnite.json"
+      }
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/sdras/fortnite-vscode-theme/issues",
+    "email": "muddibr@gmail.com"
+  },
+  "homepage": "https://github.com/sdras/fortnite-vscode-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdras/fortnite-vscode-theme"
+  },
+  "badges": [
+    {
+      "url": "https://vsmarketplacebadge.apphb.com/version/sarah.drasner.sdras/fortnite-vscode-theme.svg",
+      "href": "https://marketplace.visualstudio.com/items/sarah.drasner.sdras/fortnite-vscode-theme",
+      "description": "Extension version"
+    },
+    {
+      "url": "https://vsmarketplacebadge.apphb.com/installs/sarah.drasner.sdras/fortnite-vscode-theme.svg",
+      "href": "https://marketplace.visualstudio.com/items/sarah.drasner.sdras/fortnite-vscode-theme",
+      "description": "Extension installs"
+    },
+    {
+      "url": "https://vsmarketplacebadge.apphb.com/rating/sarah.drasner.sdras/fortnite-vscode-theme.svg",
+      "href": "https://marketplace.visualstudio.com/items/sarah.drasner.sdras/fortnite-vscode-theme",
+      "description": "Extension Rating"
+    }
+  ]
+}
