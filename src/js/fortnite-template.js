@@ -1,11 +1,11 @@
 ;(function () {
   // Grab body node
   const bodyNode = document.querySelector('body')
+  bodyNode.setAttribute('id', 'fortnite-test')
 
   // Replace the styles with the glow theme
   const initLegendary = (disableGlow, obs) => {
     var themeStyleTag = document.querySelector('.vscode-tokens-styles')
-
     if (!themeStyleTag) {
       return
     }
@@ -29,7 +29,7 @@
 
       /* replace yellow */
       updatedThemeStyles = updatedThemeStyles.replace(
-        /color: #fdeccc;/g,
+        /color: #e5c07b;/g,
         'color: #efe5d3; text-shadow: 0 0 2px #0e0119, 0 0 8px #ef7b05[LEGENDARY_BRIGHTNESS], 0 0 2px #f3a007[LEGENDARY_BRIGHTNESS];'
       )
 
@@ -65,25 +65,36 @@
   // Callback function to execute when mutations are observed
   const watchForBootstrap = function (mutationsList, observer) {
     for (let mutation of mutationsList) {
-      // only init if we're using a Fortnite subtheme
-      const isUsingFortnite = document.querySelector(
-        '[class*="sdras-fortnite-vscode-themes"]'
-      )
-      // does the style div exist yet?
-      const tokensLoaded = document.querySelector('.vscode-tokens-styles')
-      // does it have content ?
-      const tokenStyles = document.querySelector(
-        '.vscode-tokens-styles'
-      ).innerText
-
       if (mutation.type === 'attributes') {
+        // only init if we're using a Fortnite subtheme
+        const isUsingFortnite = document.querySelector(
+          '[class*="sdras-fortnite"]'
+        )
+        // does the style div exist yet?
+        const tokensLoaded = document.querySelector('.vscode-tokens-styles')
+        // does it have content ?
+        const tokenStyles = document.querySelector(
+          '.vscode-tokens-styles'
+        ).innerText
+
         // sometimes VS code takes a while to init the styles content, so stop this observer and add an observer for that
-        if (isUsingSynthwave && tokensLoaded) {
+        if (isUsingFortnite && tokensLoaded) {
           observer.disconnect()
           observer.observe(tokensLoaded, { childList: true })
         }
       }
       if (mutation.type === 'childList') {
+        // only init if we're using a Fortnite subtheme
+        const isUsingFortnite = document.querySelector(
+          '[class*="sdras-fortnite"]'
+        )
+        // does the style div exist yet?
+        const tokensLoaded = document.querySelector('.vscode-tokens-styles')
+        // does it have content ?
+        const tokenStyles = document.querySelector(
+          '.vscode-tokens-styles'
+        ).innerText
+
         // Everything we need is ready, so initialize
         if (isUsingFortnite && tokensLoaded && tokenStyles) {
           initLegendary([DISABLE_GLOW], observer)
@@ -92,7 +103,7 @@
     }
   }
 
-  // try to initialise the theme
+  // try to initialize the theme
   initLegendary([DISABLE_GLOW])
 
   // Use a mutation observer to check when we can bootstrap the theme
