@@ -1,5 +1,9 @@
 The best rated One Dark port now includes Workbench theming!
 
+## Version 1.0.2
+
+- Update some colors
+
 ## Version 1.0.1
 
 - Update badge color
