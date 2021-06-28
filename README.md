@@ -8,7 +8,7 @@ This theme is inspired by Fortnite, which is a game that's basically like the Hu
 
 Enjoy! 🛸
 
-![Theme](https://github.com/sdras/fortnite-vscode-theme/blob/master/theme.png?raw=true)
+![Theme Screenshot](https://github.com/sdras/fortnite-vscode-theme/raw/master/theme.png?raw=true)
 
 ## Installation
 
@@ -39,6 +39,6 @@ I'm very happy to consider any contributions to this theme. Before you make any 
 ## Thanks
 
 - This theme is fan art for the great Fortnite game by Epic Games, it is open sourced under an MIT license and I make no ca$hmoney from it, it's just for fun.
-- Thanks to [Robb Owen](https://twitter.com/Robb0wen), whose Synthwave theme provided the basis to learn how to incorporate a lot of the legendary effects of this theme. Thank you Robb!
+- Thanks to [Robb Owen](https://twitter.com/Robb0wen), whose Synthwave theme provided the basis to learn how to incorporate a lot of the legendary effects of this theme. The palette, though different, was also inspired by Robb's work. Thank you Robb!
 - Thanks also to [Mahmoud Ali](https://marketplace.visualstudio.com/publishers/akamud), whose Atom One Dark theme provided the basis for the samples included here.
 - Thanks to [Dizzy Smith](https://twitter.com/dizzyd) and [Ben Hong](https://twitter.com/bencodezen), who revive me when I get all pew pew pew.

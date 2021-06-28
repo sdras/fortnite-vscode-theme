@@ -11,7 +11,7 @@
 
     /* replace magenta */
     updatedThemeStyles = updatedThemeStyles.replace(
-      /color: #fe4450;/g,
+      /color: #ea5a9c;/g,
       'color: #ef5ea0; text-shadow: 0 0 2px #000000, 0 0 8px #bf226a, 0 0 2px #ef5ea0;'
     )
 
@@ -24,7 +24,7 @@
     /* replace teal */
     updatedThemeStyles = updatedThemeStyles.replace(
       /color: #8cefd8;/g,
-      'color: #8cefd8; text-shadow: 0 0 2px #0e0119, 0 0 6px #40aeb9cc;'
+      'color: #9eecda; text-shadow: 0 0 1px #0e0119, 0 0 8px #16ccded9, 0 0 2px #9eecda;'
     )
 
     /* replace green */
@@ -51,6 +51,7 @@
 
   // Callback function to execute when mutations are observed
   const watchForBootstrap = function (mutationsList, observer) {
+    console.log(mutationsList)
     for (let mutation of mutationsList) {
       if (mutation.type === 'attributes') {
         // only init if we're using a Fortnite subtheme

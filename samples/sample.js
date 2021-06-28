@@ -6,7 +6,7 @@ window.requestAnimFrame = (function () {
     window.oRequestAnimationFrame ||
     window.msRequestAnimationFrame ||
     function (callback) {
-      window.setTimeout(callback, 1000 / 60);
+      window.setTimeout(callback, 1000 / 60); 
     };
 })();
 // usage:
@@ -86,7 +86,7 @@ for (loopCounter in degCent) {
   }
 }
 
-export async function teste(paramValue) {
+export async function test(paramValue) {
   return Promise.all(paramValue.map(async x => {
     const constValue = (x.value instanceof Something);
     const paramValue = (
