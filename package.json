@@ -4,6 +4,7 @@
   "description": "A Fortnite-inspired color theme for childlike happiness even while doing serious programming",
   "version": "0.1.3",
   "publisher": "sdras",
+  "author": "Sarah Drasner",
   "license": "MIT",
   "galleryBanner": {
     "color": "#370f57",
@@ -15,6 +16,11 @@
   "categories": [
     "Themes"
   ],
+  "activationEvents": [
+    "*",
+    "onCommand:fortnite.enableLegendary"
+  ],
+  "main": "./src/extension.js",
   "keywords": [
     "flamebows",
     "gaming",
@@ -35,11 +41,21 @@
         "uiTheme": "vs-dark",
         "path": "./themes/fortnite.json"
       }
+    ],
+    "commands": [
+      {
+        "command": "fortnite.enableLegendary",
+        "title": "Fortnite: Enable Legendary"
+      },
+      {
+        "command": "fortnite.disableLegendary",
+        "title": "Fortnite: Disable Legendary"
+      }
     ]
   },
   "bugs": {
     "url": "https://github.com/sdras/fortnite-vscode-theme/issues",
-    "email": "muddibr@gmail.com"
+    "email": "sarah.drasner@gmail.com"
   },
   "homepage": "https://github.com/sdras/fortnite-vscode-theme",
   "repository": {
