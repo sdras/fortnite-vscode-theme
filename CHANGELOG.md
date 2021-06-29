@@ -1,5 +1,11 @@
 The best rated One Dark port now includes Workbench theming!
 
+## Version 1.1.0
+
+- Active tab fire
+- Background lightining
+- Reintroduce green
+
 ## Version 1.0.2
 
 - Update some colors
