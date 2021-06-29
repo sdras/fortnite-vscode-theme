@@ -130,8 +130,31 @@
   bottom: 22px;
   right: 0;
   height: 170px;
-  opacity: 0.65;
+  opacity: 0.6;
   width: 170px;
   background: url('https://assets.codepen.io/28963/lightning-take3_1.png') 100%
     96.5%/170px no-repeat;
+}
+
+.list_id_1 .monaco-list-row.selected::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 3px;
+  height: 22px;
+  width: 29px;
+  background: url('https://assets.codepen.io/28963/fortnite-chicken.png')
+    no-repeat;
+  background-size: 100%;
+  background-position: top right;
+}
+
+.list_id_2 .monaco-list-row.selected::after {
+  content: '🛸';
+  position: absolute;
+  bottom: 0;
+  font-size: 25px;
+  right: 3px;
+  height: 22px;
+  width: 29px;
 }

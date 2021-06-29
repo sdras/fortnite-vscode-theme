@@ -47,11 +47,7 @@ function activate(context) {
           __dirname + '/js/fortnite-template.js',
           'utf-8'
         )
-        const themeWithGlow = jsTemplate.replace(
-          /\[DISABLE_GLOW\]/g,
-          disableGlow
-        )
-        const themeWithChrome = themeWithGlow.replace(
+        const themeWithChrome = jsTemplate.replace(
           /\[CHROME_STYLES\]/g,
           chromeStyles
         )

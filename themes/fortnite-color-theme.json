@@ -1257,7 +1257,7 @@
     {
       "name": "[VSCODE-CUSTOM] Css Punctuation Definition Constant",
       "scope": "punctuation.definition.constant.css",
-      "settings": { "foreground": "#9dd65f" }
+      "settings": { "foreground": "#b6f0fd" }
     },
     {
       "name": "[VSCODE-CUSTOM] Sass Punctuation for key-value",
