@@ -1,5 +1,11 @@
 The best rated One Dark port now includes Workbench theming!
 
+## Version 1.2.0
+
+- Peeking chicken
+- Active file spaceship
+- Differentiate magenta, make orange
+
 ## Version 1.1.0
 
 - Active tab fire
