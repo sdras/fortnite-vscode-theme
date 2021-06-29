@@ -1,3 +1,9 @@
+## Version 1.3.0
+
+- Put in the ridiculous llama
+- Make sure you can still close the tabs
+- Update readme
+
 ## Version 1.2.0
 
 - Peeking chicken
