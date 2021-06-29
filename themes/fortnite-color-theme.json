@@ -5,7 +5,7 @@
     "activityBar.background": "#20122C",
     "activityBar.foreground": "#b7aac1",
     "activityBarBadge.background": "#1f6c74",
-    "activityBarBadge.foreground": "#b7aac1",
+    "activityBarBadge.foreground": "#ffffff",
     "button.background": "#1f6c74",
     "button.foreground": "#FFFFFF",
     "button.hoverBackground": "#288b96",

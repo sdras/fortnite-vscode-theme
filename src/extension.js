@@ -70,13 +70,13 @@ function activate(context) {
         if (!isEnabled) {
           // delete fortnite script tag if there
           let output = html.replace(
-            /^.*(<!-- FORTNITE --><script src="legendary.js"><\/script><!-- LEGENDARY -->).*\n?/gm,
+            /^.*(<!-- FORTNITE --><script src="legendary.js"><\/script><!-- FORTNITE -->).*\n?/gm,
             ''
           )
           // add script tag
           output = html.replace(
             /\<\/html\>/g,
-            `	<!-- FORTNITE --><script src="legendary.js"></script><!-- FORTNITE -->\n`
+            `<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script><!-- FORTNITE --><script src="legendary.js"></script><!-- FORTNITE -->\n`
           )
           output += '</html>'
 
