@@ -147,6 +147,12 @@
     no-repeat;
   background-size: 100%;
   background-position: top right;
+  opacity: 1;
+}
+
+.list_id_1 .monaco-list-row::after {
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .list_id_2 .monaco-list-row.selected::after {
@@ -157,4 +163,10 @@
   right: 3px;
   height: 22px;
   width: 29px;
+  opacity: 1;
+}
+
+.list_id_2 .monaco-list-row::after {
+  opacity: 0;
+  transition: opacity 1s;
 }

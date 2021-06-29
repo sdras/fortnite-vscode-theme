@@ -24,7 +24,7 @@
     /* replace teal */
     updatedThemeStyles = updatedThemeStyles.replace(
       /color: #8cefd8;/g,
-      'color: #9eecda; text-shadow: 0 0 1px #0e0119, 0 0 8px #16ccded9, 0 0 2px #9eecda;'
+      'color: #9eecda; text-shadow: 0 0 1px #0e0119, 0 0 6px #16ccded9cc, 0 0 2px #9eecdacc;'
     )
 
     /* replace green */

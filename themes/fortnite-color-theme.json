@@ -168,7 +168,7 @@
     {
       "name": "Variable",
       "scope": ["variable"],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "Variable Interpolation",
@@ -198,12 +198,12 @@
     {
       "name": "String Regexp Source Ruby Embedded",
       "scope": ["string.regexp source.ruby.embedded"],
-      "settings": { "foreground": "#ef5ea0" }
+      "settings": { "foreground": "#deb581" }
     },
     {
       "name": "String Other Link",
       "scope": ["string.other.link"],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "Punctuation Definition Comment",
@@ -257,7 +257,7 @@
     {
       "name": "Support Class",
       "scope": ["support.class"],
-      "settings": { "foreground": "#ef5ea0" }
+      "settings": { "foreground": "#deb581" }
     },
     {
       "name": "Support Type",
@@ -282,7 +282,7 @@
     {
       "name": "Entity Name Class,entity Name Type Class",
       "scope": ["entity.name.class", "entity.name.type.class"],
-      "settings": { "foreground": "#ef5ea0" }
+      "settings": { "foreground": "#deb581" }
     },
     {
       "name": "Entity Name Section",
@@ -292,7 +292,7 @@
     {
       "name": "Entity Name Tag",
       "scope": ["entity.name.tag"],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "Entity Other Attribute Name",
@@ -322,7 +322,7 @@
     {
       "name": "Meta Definition Variable",
       "scope": ["meta.definition.variable"],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "Meta Link",
@@ -382,7 +382,7 @@
     {
       "name": "Markup Deleted",
       "scope": ["markup.deleted"],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "Markup Italic",
@@ -392,7 +392,7 @@
     {
       "name": "Markup Heading",
       "scope": ["markup.heading"],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "Markup Heading Punctuation Definition Heading",
@@ -486,12 +486,12 @@
         "source.elixir embedded.section",
         "source.elixir embedded.source.empty"
       ],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "Source Elixir Readwrite Module Punctuation",
       "scope": ["source.elixir readwrite.module punctuation"],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "Source Elixir Regexp Section,source Elixir Regexp String",
@@ -535,7 +535,7 @@
     {
       "name": "Source Ini Keyword Other Definition Ini",
       "scope": ["source.ini keyword.other.definition.ini"],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "Source Java Storage Modifier Import",
@@ -555,7 +555,7 @@
     {
       "name": "Source Java Properties Meta Key Pair",
       "scope": ["source.java-properties meta.key-pair"],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "Source Java Properties Meta Key Pair > Punctuation",
@@ -595,14 +595,14 @@
       "scope": [
         "source.json meta.structure.dictionary.json > string.quoted.json"
       ],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "Source Json Meta Structure Dictionary Json > String Quoted Json > Punctuation String",
       "scope": [
         "source.json meta.structure.dictionary.json > string.quoted.json > punctuation.string"
       ],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "Source Json Meta Structure Dictionary Json > Value Json > String Quoted Json,source Json Meta Structure Array Json > Value Json > String Quoted Json,source Json Meta Structure Dictionary Json > Value Json > String Quoted Json > Punctuation,source Json Meta Structure Array Json > Value Json > String Quoted Json > Punctuation",
@@ -625,7 +625,7 @@
     {
       "name": "Ng Interpolation",
       "scope": ["ng.interpolation"],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "Ng Interpolation Begin,ng Interpolation End",
@@ -635,7 +635,7 @@
     {
       "name": "Ng Interpolation Function",
       "scope": ["ng.interpolation function"],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "Ng Interpolation Function Begin,ng Interpolation Function End",
@@ -726,12 +726,12 @@
     {
       "name": "[VSCODE-CUSTOM] JSON Property Name",
       "scope": "support.type.property-name.json",
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "[VSCODE-CUSTOM] JSON Punctuation for Property Name",
       "scope": "support.type.property-name.json punctuation",
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Punctuation for key-value",
@@ -762,7 +762,7 @@
     {
       "name": "[VSCODE-CUSTOM] JS/TS Support Variable Dom",
       "scope": ["support.variable.dom.js", "support.variable.dom.ts"],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Support Variable Property Dom",
@@ -770,7 +770,7 @@
         "support.variable.property.dom.js",
         "support.variable.property.dom.ts"
       ],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Interpolation String Punctuation",
@@ -814,7 +814,7 @@
         "support.variable.property.ts",
         "support.variable.property.tsx"
       ],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Default Keyword",
@@ -960,7 +960,7 @@
         "variable.other.readwrite.alias.jsx",
         "variable.other.readwrite.alias.tsx"
       ],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Constants",
@@ -1067,7 +1067,7 @@
         "support.type.object.module.ts",
         "support.type.object.module.tsx"
       ],
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "[VSCODE-CUSTOM] JSON Constants",
@@ -1152,7 +1152,7 @@
     {
       "name": "[VSCODE-CUSTOM] Python Magic",
       "scope": "support.variable.magic.python",
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "[VSCODE-CUSTOM] Python Meta Function Parameters",
@@ -1172,7 +1172,7 @@
     {
       "name": "[VSCODE-CUSTOM] CSharp Fields",
       "scope": "entity.name.variable.field.cs",
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "[VSCODE-CUSTOM] CSharp Keyword Operators",
@@ -1247,7 +1247,7 @@
     {
       "name": "[VSCODE-CUSTOM] Shell Variables Punctuation Definition",
       "scope": "punctuation.definition.variable.shell",
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "[VSCODE-CUSTOM] Css Support Constant Value",
@@ -1257,17 +1257,27 @@
     {
       "name": "[VSCODE-CUSTOM] Css Punctuation Definition Constant",
       "scope": "punctuation.definition.constant.css",
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "[VSCODE-CUSTOM] Sass Punctuation for key-value",
       "scope": "punctuation.separator.key-value.scss",
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "[VSCODE-CUSTOM] Sass Punctuation for constants",
       "scope": "punctuation.definition.constant.scss",
-      "settings": { "foreground": "#9dd65f" }
+      "settings": { "foreground": "#f9dea6" }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] CSS Attribute selector",
+      "scope": "entity.other.attribute-name.parent-selector.css",
+      "settings": { "foreground": "#f9dea6" }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] CSS Parent selector",
+      "scope": "entity.other.attribute-name.class.css",
+      "settings": { "foreground": "#f9dea6" }
     },
     {
       "name": "[VSCODE-CUSTOM] Sass Punctuation for key-value",
@@ -1282,12 +1292,12 @@
     {
       "name": "[VSCODE-CUSTOM] Markdown headings",
       "scope": "entity.name.section.markdown",
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown heading Punctuation Definition",
       "scope": "punctuation.definition.heading.markdown",
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown heading setext",
@@ -1307,7 +1317,7 @@
     {
       "name": "[VSCODE-CUSTOM] Markdown List Punctuation Definition",
       "scope": "beginning.punctuation.definition.list.markdown",
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown Quote",
@@ -1347,7 +1357,7 @@
     {
       "name": "[VSCODE-CUSTOM] Ruby Punctuation Separator Variable",
       "scope": "punctuation.separator.variable.ruby",
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "[VSCODE-CUSTOM] Ruby Other Constant Variable",
@@ -1362,7 +1372,7 @@
     {
       "name": "[VSCODE-CUSTOM] PHP Punctuation Variable Definition",
       "scope": "punctuation.definition.variable.php",
-      "settings": { "foreground": "#b6f0fd" }
+      "settings": { "foreground": "#8cefd8" }
     },
     {
       "name": "[VSCODE-CUSTOM] PHP Meta Class",
