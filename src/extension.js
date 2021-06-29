@@ -72,7 +72,7 @@ function activate(context) {
           // add script tag
           output = html.replace(
             /\<\/html\>/g,
-            `<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script><!-- FORTNITE --><script src="legendary.js"></script><!-- FORTNITE -->\n`
+            `<!-- FORTNITE --><script src="legendary.js"></script><!-- FORTNITE -->\n`
           )
           output += '</html>'
 

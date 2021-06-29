@@ -33,9 +33,9 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 65px;
-  width: 100%;
-  background: url(https://assets.codepen.io/28963/fire.png) 50% 60%/80%
+  height: 55px;
+  width: 80%;
+  background: url(https://assets.codepen.io/28963/fire.png) 90% 60%/80%
     no-repeat;
   opacity: 0.8;
   z-index: 6;
@@ -124,16 +124,18 @@
   right: 20px;
 }
 
-.monaco-workbench::after {
+.monaco-workbench::before {
   content: '';
   position: absolute;
   bottom: 22px;
   right: 0;
-  height: 170px;
-  opacity: 0.6;
-  width: 170px;
-  background: url('https://assets.codepen.io/28963/lightning-take3_1.png') 100%
-    96.5%/170px no-repeat;
+  height: 200px;
+  opacity: 0.7;
+  width: 200px;
+  /*background: url('https://assets.codepen.io/28963/lightning-take3_1.png') 100%
+    96.5%/170px no-repeat;*/
+  background: url('https://assets.codepen.io/28963/storm4.png') 100% 100%/100%
+    no-repeat;
 }
 
 .list_id_1 .monaco-list-row.selected::after {
@@ -169,4 +171,15 @@
 .list_id_2 .monaco-list-row::after {
   opacity: 0;
   transition: opacity 1s;
+}
+
+#fortnite-container {
+  position: relative;
+}
+
+.llama {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  z-index: 5000;
 }

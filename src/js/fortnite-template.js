@@ -1,7 +1,20 @@
 ;(function () {
-  // Grab body node
+  // Grab body node, add a llama, remove a llama when we're done bouncing
   const bodyNode = document.querySelector('body')
-  bodyNode.setAttribute('id', 'fortnite-test')
+  bodyNode.setAttribute('id', 'fortnite-container')
+  const llamaContainer = document.querySelector('#fortnite-container')
+  const DOM_img = document.createElement('img')
+
+  window.setTimeout(() => {
+    DOM_img.src = 'https://assets.codepen.io/28963/llama-bounce.gif'
+    DOM_img.classList.add('llama')
+    llamaContainer.appendChild(DOM_img)
+  }, 4000)
+
+  window.setTimeout(() => {
+    let llamaEl = document.querySelector('.llama')
+    llamaEl.parentNode.removeChild(llamaEl)
+  }, 9000)
 
   // Replace the styles with the glow theme
   const initLegendary = (obs) => {
