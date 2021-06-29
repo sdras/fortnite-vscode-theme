@@ -1,5 +1,3 @@
-The best rated One Dark port now includes Workbench theming!
-
 ## Version 1.2.0
 
 - Peeking chicken
@@ -9,7 +7,7 @@ The best rated One Dark port now includes Workbench theming!
 ## Version 1.1.0
 
 - Active tab fire
-- Background lightining
+- Background lightning
 - Reintroduce green
 
 ## Version 1.0.2
@@ -23,7 +21,7 @@ The best rated One Dark port now includes Workbench theming!
 
 ## Version 1.0.0
 
-- Add in 'Legendary' functionality for text effects
+- Add in **Legendary** functionality for text effects
 - Put in glows and editor gradients
 - Ability to disable the effects
 - Update screenshot
