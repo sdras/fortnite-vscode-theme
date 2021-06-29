@@ -35,9 +35,9 @@
   right: 0;
   height: 65px;
   width: 100%;
-  background: url(https://assets.codepen.io/28963/fire.png) 50% 60%/90%
+  background: url(https://assets.codepen.io/28963/fire.png) 50% 60%/80%
     no-repeat;
-  opacity: 0.9;
+  opacity: 0.8;
   z-index: 6;
 }
 
@@ -130,7 +130,7 @@
   bottom: 22px;
   right: 0;
   height: 170px;
-  opacity: 0.7;
+  opacity: 0.65;
   width: 170px;
   background: url('https://assets.codepen.io/28963/lightning-take3_1.png') 100%
     96.5%/170px no-repeat;
