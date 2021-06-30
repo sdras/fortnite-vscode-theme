@@ -1,7 +1,11 @@
 # Fortnite VS Code Theme
 
+<div align="center">
+    
 ![Fortnite banner](/banner.png "Fortnite banner")
 
+</div>
+    
 🐔 Are you a child at heart? Do you like enjoying yourself, even while writing serious business logic? If you like taking a flame bow and igniting data structures on fire, this is the theme for you.
 
 This theme is inspired by Fortnite, which is a game that's basically like the Hunger Games set at children's birthday party in the middle of a fever dream. But more fun. Very cathartic for those of us in the tech industry.
@@ -11,11 +15,15 @@ Enjoy! 🛸
 
 ## Preview
 
+<div align="center">
+
 ![Theme preview screenshot](/theme.png "Theme preview screenshot")
+
+</div>
 
 ## Installation
 
-- Install the theme from the VS Marketplace - [fortnite-vscode-theme](https://marketplace.visualstudio.com/items?itemName=sarah.drasner.fortnite-vscode-theme)
+- Install the theme from the VS Marketplace - [fortnite-vscode-theme](https://marketplace.visualstudio.com/items?itemName=sarah.drasner.fortnite-vscode-theme).
 - To activate effects:
     1. Open your command palette with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> or <kbd>Shift</kbd> + <kbd>⌘</kbd> + <kbd>P</kbd>.
     2. Choose "**Fortnite: Enable Legendary**". 
