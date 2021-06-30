@@ -1,10 +1,6 @@
 # Fortnite VS Code Theme
 
-<div align="center">
-  
 ![Fortnite banner](/banner.png "Fortnite banner")
-
-</div>
 
 🐔 Are you a child at heart? Do you like enjoying yourself, even while writing serious business logic? If you like taking a flame bow and igniting data structures on fire, this is the theme for you.
 
@@ -15,11 +11,7 @@ Enjoy! 🛸
 
 ## Preview
 
-<div align="center">
-
-![Theme screenshot](/theme.png "Theme screenshot")
-  
-</div>
+![Theme preview screenshot](/theme.png "Theme preview screenshot")
 
 ## Installation
 
