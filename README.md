@@ -61,7 +61,9 @@ Every time you update VS Code, you will need to re-enable "**Fortnite: Enable Le
 
 ## Contributing
 
-I'm happy to consider any contributions to this theme, but it's experimental, playful, and I don't expect to dedicate a ton of time to it. Before you make any changes, [please read the contribution guide](https://github.com/sdras/fortnite-vscode-theme/blob/master/CONTRIBUTING.md).
+I'm happy to consider any contributions to this theme, but it's experimental, playful, and I don't expect to dedicate a ton of time to it. 
+
+Before you make any changes, please read the [contribution guide](https://github.com/sdras/fortnite-vscode-theme/blob/master/CONTRIBUTING.md).
 
 ## Thanks
 
