@@ -17,9 +17,10 @@ Enjoy! 🛸
 
 <div align="center">
 
-![Theme preview screenshot](/theme.png "Theme preview screenshot")
+[![Theme preview screenshot](/theme.png "Theme preview screenshot")](https://marketplace.visualstudio.com/items?itemName=sdras.fortnite-vscode-theme)
 
 </div>
+
 
 ## Installation
 
@@ -41,7 +42,7 @@ Upon installation of 'Fix VSCode Checksums', open the command palette and execut
 
 ### Disclaimer
 
-VS code doesn't natively support some of the... eccentricities of this theme. And, as a result, a lot of the effects are experimental. 
+VS Code does not natively support some of the... eccentricities of this theme. And, as a result, a lot of the effects are _experimental_. 
 
 Should something go wrong, you can disable it:
 
@@ -64,7 +65,7 @@ I'm happy to consider any contributions to this theme, but it's experimental, pl
 
 ## Thanks
 
-- This theme is fan art for the great Fortnite game by Epic Games, it is open sourced under an MIT license and I make no ca$hmoney from it, it's just for fun.
+- This theme is fan art for the great Fortnite game by Epic Games, it is open-sourced under an MIT license and I make no ca$hmoney from it, it's just for fun.
 - Thanks to [Robb Owen](https://twitter.com/Robb0wen), whose Synthwave theme provided the basis to learn how to incorporate a lot of the legendary effects of this theme. The palette, though different, was also inspired by Robb's work. Thank you Robb!
 - Thanks also to [Mahmoud Ali](https://marketplace.visualstudio.com/publishers/akamud), whose Atom One Dark theme provided the basis for the samples included here.
 - Thanks to [Dizzy Smith](https://twitter.com/dizzyd) and [Ben Hong](https://twitter.com/bencodezen), who revive me when I get all pew pew pew.
