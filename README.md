@@ -12,7 +12,6 @@ This theme is inspired by Fortnite, which is a game that's basically like the Hu
 
 Enjoy! 🛸
 
-
 ## Preview
 
 <div align="center">
@@ -21,28 +20,27 @@ Enjoy! 🛸
 
 </div>
 
-
 ## Installation
 
-- Install the theme from the VS Marketplace - [fortnite-vscode-theme](https://marketplace.visualstudio.com/items?itemName=sarah.drasner.fortnite-vscode-theme).
+- Install the theme from the VS Marketplace - [fortnite-vscode-theme](https://marketplace.visualstudio.com/items?itemName=sdras.fortnite-vscode-theme).
 - To activate effects:
-    1. Open your command palette with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> or <kbd>Shift</kbd> + <kbd>⌘</kbd> + <kbd>P</kbd>.
-    2. Choose "**Fortnite: Enable Legendary**". 
-    3. Follow the prompt to restart.
-    4. Then you'll see glows and other effects are activated. ✨
+  1. Open your command palette with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> or <kbd>Shift</kbd> + <kbd>⌘</kbd> + <kbd>P</kbd>.
+  2. Choose "**Fortnite: Enable Legendary**".
+  3. Follow the prompt to restart.
+  4. Then you'll see glows and other effects are activated. ✨
 - It will say VS Code is corrupted, but don't panic! This is not the case - we've modified some core files, but it's not actually corrupted. You can safely dismiss it, either once or permanently with the instructions below.
 - **Enjoy the chaos**
 - If the effects ever get to you, you can turn them off with **Fortnite: Disable Legendary**. De-activating and re-activating will re-engage the llama.
 
 ### To remove corruption warning and `[unsupported]` from title-bar
 
-Because enabling the glow modifies core files, VS code will interpret this as the core being 'corrupted' and you may see an error message on restarting your editor. You can remove it entirely with the [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums 'Fix VSCode Checksums') extension.
+Because enabling the glow modifies core files, VS code will interpret this as the core being 'corrupted' and you may see an error message on restarting your editor. You can remove it entirely with the [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums "Fix VSCode Checksums") extension.
 
 Upon installation of 'Fix VSCode Checksums', open the command palette and execute `Fix Checksums: Apply`. You will need to completely restart VSCode after execution, reopening without fully exiting might not be enough.
 
 ### Disclaimer
 
-VS Code does not natively support some of the... eccentricities of this theme. And, as a result, a lot of the effects are _experimental_. 
+VS Code does not natively support some of the... eccentricities of this theme. And, as a result, a lot of the effects are _experimental_.
 
 Should something go wrong, you can disable it:
 
@@ -51,7 +49,7 @@ Should something go wrong, you can disable it:
 
 Or if things go really awry, get a fresh install of VS Code.
 
-If you are a Windows user, you may need to run VS Code with administrator privileges. 
+If you are a Windows user, you may need to run VS Code with administrator privileges.
 
 For Linux and Mac users, Code must not be installed in a read-only location and you must have write permissions.
 
@@ -61,7 +59,7 @@ Every time you update VS Code, you will need to re-enable "**Fortnite: Enable Le
 
 ## Contributing
 
-I'm happy to consider any contributions to this theme, but it's experimental, playful, and I don't expect to dedicate a ton of time to it. 
+I'm happy to consider any contributions to this theme, but it's experimental, playful, and I don't expect to dedicate a ton of time to it.
 
 Before you make any changes, please read the [contribution guide](https://github.com/sdras/fortnite-vscode-theme/blob/master/CONTRIBUTING.md).
 
