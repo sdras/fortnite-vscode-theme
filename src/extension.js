@@ -8,7 +8,7 @@ const reloadCode = () =>
 const handleError = err => {
   if (err.code in ['ENOENT', 'EACCES', 'EPERM']) {
     vscode.window.showInformationMessage(
-      'You must run VSCode with admin privileges in order to enable Legendary!'
+      'You must run VS Code with admin privileges in order to enable Legendary!'
     )
   } else {
     vscode.window.showErrorMessage(`Error: ${err.message}`)
@@ -45,15 +45,17 @@ function enableLegendary() {
 
       vscode.window
         .showInformationMessage(
-          "Legendary enabled. VS code must reload for this change to take effect. Code may display a warning that it is corrupted, this is normal. You can dismiss this message by choosing 'Don't show this again' on the notification.",
-          { title: 'Restart editor to complete' }
+          "Legendary enabled. VS Code must be reloaded for this change to take effect. " +
+            "Code may display a warning that it is corrupted. This is normal! " +
+            "You can dismiss the warning by choosing 'Don't show this again' on the notification.",
+          { title: 'Restart Editor to Complete' }
         )
         .then(reloadCode)
     } else {
       vscode.window
         .showInformationMessage(
-          'Legendary is already enabled. Reload to refresh JS settings.',
-          { title: 'Restart editor to refresh settings' }
+          'Legendary is already enabled. Reload to refresh the JS settings.',
+          { title: 'Restart Editor to Refresh Settings' }
         )
         .then(reloadCode)
     }
@@ -74,8 +76,8 @@ function disableLegendary() {
 
       vscode.window
         .showInformationMessage(
-          'Legendary disabled. VS code must reload for this change to take effect',
-          { title: 'Restart editor to complete' }
+          'Legendary disabled. VS Code must be reloaded for this change to take effect.',
+          { title: 'Restart Editor to Complete' }
         )
         .then(reloadCode)
     } else {
