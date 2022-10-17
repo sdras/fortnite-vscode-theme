@@ -1,6 +1,8 @@
-const path = require('path')
 const fs = require('fs')
+const path = require('path')
 const vscode = require('vscode')
+
+const paths = require('./paths')
 
 /**
  * @param {vscode.ExtensionContext} context
@@ -21,32 +23,10 @@ function activate(context) {
   let disposable = vscode.commands.registerCommand(
     'fortnite.enableLegendary',
     function () {
-      const isWin = /^win/.test(process.platform)
-      const appDir = path.dirname(require.main.filename)
-      const base = appDir + (isWin ? '\\vs\\code' : '/vs/code')
-
-      const htmlFile =
-        base +
-        (isWin
-          ? '\\electron-browser\\workbench\\workbench.html'
-          : '/electron-browser/workbench/workbench.html')
-
-      const templateFile =
-        base +
-        (isWin
-          ? '\\electron-browser\\workbench\\legendary.js'
-          : '/electron-browser/workbench/legendary.js')
-
       try {
         // generate production theme JS
-        const chromeStyles = fs.readFileSync(
-          __dirname + '/css/fortnite.css',
-          'utf-8'
-        )
-        const jsTemplate = fs.readFileSync(
-          __dirname + '/js/fortnite-template.js',
-          'utf-8'
-        )
+        const chromeStyles = fs.readFileSync(paths.legendary.css, 'utf-8')
+        const jsTemplate = fs.readFileSync(paths.legendary.js, 'utf-8')
         const themeWithChrome = jsTemplate.replace(
           /\[CHROME_STYLES\]/g,
           chromeStyles
@@ -55,10 +35,10 @@ function activate(context) {
           /\[LEGENDARY_BRIGHTNESS\]/g,
           legendaryBrightness
         )
-        fs.writeFileSync(templateFile, finalTheme, 'utf-8')
+        fs.writeFileSync(paths.workbench.legendary, finalTheme, 'utf-8')
 
         // modify workbench html
-        const html = fs.readFileSync(htmlFile, 'utf-8')
+        const html = fs.readFileSync(paths.workbench.html, 'utf-8')
 
         // check if the tag is already there
         const isEnabled = html.includes('legendary.js')
@@ -76,7 +56,7 @@ function activate(context) {
           )
           output += '</html>'
 
-          fs.writeFileSync(htmlFile, output, 'utf-8')
+          fs.writeFileSync(paths.workbench.html, output, 'utf-8')
 
           vscode.window
             .showInformationMessage(
@@ -128,17 +108,8 @@ function deactivate() {
 }
 
 function uninstall() {
-  var isWin = /^win/.test(process.platform)
-  var appDir = path.dirname(require.main.filename)
-  var base = appDir + (isWin ? '\\vs\\code' : '/vs/code')
-  var htmlFile =
-    base +
-    (isWin
-      ? '\\electron-browser\\workbench\\workbench.html'
-      : '/electron-browser/workbench/workbench.html')
-
   // modify workbench html
-  const html = fs.readFileSync(htmlFile, 'utf-8')
+  const html = fs.readFileSync(paths.workbench.html, 'utf-8')
 
   // check if the tag is already there
   const isEnabled = html.includes('legendary.js')
@@ -149,7 +120,7 @@ function uninstall() {
       /^.*(<!-- FORTNITE --><script src="legendary.js"><\/script><!-- FORTNITE -->).*\n?/gm,
       ''
     )
-    fs.writeFileSync(htmlFile, output, 'utf-8')
+    fs.writeFileSync(paths.workbench.html, output, 'utf-8')
 
     vscode.window
       .showInformationMessage(
