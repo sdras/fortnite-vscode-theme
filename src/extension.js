@@ -1,8 +1,9 @@
-const fs = require('fs')
+const fs = require('fs/promises')
 const path = require('path')
 const vscode = require('vscode')
 const paths = require('./paths')
 
+const enc = { encoding: 'utf-8' }
 const reloadCode = () =>
   vscode.commands.executeCommand('workbench.action.reloadWindow')
 const handleError = err => {
@@ -25,23 +26,23 @@ function activate(context) {
   )
 }
 
-function enableLegendary() {
+async function enableLegendary() {
   try {
     // generate production theme JS
     const legendaryBrightness = parseBrightness()
-    const chromeStyles = fs.readFileSync(paths.legendary.css, 'utf-8')
-    const legendary = fs.readFileSync(paths.legendary.js, 'utf-8')
+    const chromeStyles = await fs.readFile(paths.legendary.css, enc)
+    const legendary = (await fs.readFile(paths.legendary.js, enc))
       .replace('[CHROME_STYLES]', chromeStyles)
       .replace('[LEGENDARY_BRIGHTNESS]', legendaryBrightness)
-    fs.writeFileSync(paths.workbench.legendary, legendary, 'utf-8')
+    await fs.writeFile(paths.workbench.legendary, legendary, enc)
 
-    const html = fs.readFileSync(paths.workbench.html, 'utf-8')
+    const html = await fs.readFile(paths.workbench.html, enc)
     if (!html.includes('legendary.js')) {
       const output = html.replace(
         '</html>',
         `\n\t<!-- FORTNITE -->\n\t<script src="legendary.js"></script>\n</html>`
       )
-      fs.writeFileSync(paths.workbench.html, output, 'utf-8')
+      await fs.writeFile(paths.workbench.html, output, enc)
 
       vscode.window
         .showInformationMessage(
@@ -64,15 +65,15 @@ function enableLegendary() {
   }
 }
 
-function disableLegendary() {
+async function disableLegendary() {
   try {
-    const html = fs.readFileSync(paths.workbench.html, 'utf-8')
+    const html = await fs.readFile(paths.workbench.html, enc)
     if (html.includes('legendary.js')) {
       let output = html.replace(
         /\s*<!-- FORTNITE -->\s*<script src="legendary.js"><\/script>/gm,
         ''
       )
-      fs.writeFileSync(paths.workbench.html, output, 'utf-8')
+      await fs.writeFile(paths.workbench.html, output, enc)
 
       vscode.window
         .showInformationMessage(
