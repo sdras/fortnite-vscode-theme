@@ -1,3 +1,7 @@
+## Version 1.4.0
+
+- Fix **Legendary** activation for VSCode 1.70.0 and above
+
 ## Version 1.3.0
 
 - Put in the ridiculous llama
