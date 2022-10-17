@@ -17,8 +17,9 @@
     "Themes"
   ],
   "activationEvents": [
-    "*",
-    "onCommand:fortnite.enableLegendary"
+    "onStartupFinished",
+    "onCommand:fortnite.enableLegendary",
+    "onCommand:fortnite.disableLegendary"
   ],
   "main": "./src/extension.js",
   "keywords": [

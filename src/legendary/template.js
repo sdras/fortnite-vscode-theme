@@ -50,7 +50,7 @@ function initLegendary() {
   const newStyleTag = document.createElement('style')
   newStyleTag.setAttribute('id', 'fortnite-theme-styles')
   newStyleTag.innerText = legendaryStyles
-  document.body.appendChild(newStyleTag)
+  document.head.appendChild(newStyleTag)
 
   console.log('Fortnite: LEGENDARY initialized!')
 }
@@ -75,6 +75,7 @@ function watchForBootstrap(mutationsList, observer) {
           isUsingFortnite && tokensLoaded && !tokenStylesLoaded) {
         // Sometimes VS Code takes a while to init the styles content,
         //   so stop this observer and add one for that.
+        observer.disconnect()
         observer.observe(tokensLoaded, { childList: true })
       }
     }

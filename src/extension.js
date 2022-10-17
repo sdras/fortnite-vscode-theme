@@ -39,7 +39,7 @@ function enableLegendary() {
     if (!html.includes('legendary.js')) {
       const output = html.replace(
         '</html>',
-        `\t<!-- FORTNITE --><script src="legendary.js"></script><!-- FORTNITE -->\n</html>`
+        `\n\t<!-- FORTNITE -->\n\t<script src="legendary.js"></script>\n</html>`
       )
       fs.writeFileSync(paths.workbench.html, output, 'utf-8')
 
@@ -69,7 +69,7 @@ function disableLegendary() {
     const html = fs.readFileSync(paths.workbench.html, 'utf-8')
     if (html.includes('legendary.js')) {
       let output = html.replace(
-        /\t<!-- FORTNITE --><script src="legendary.js"><\/script><!-- FORTNITE -->\n/gm,
+        /\s*<!-- FORTNITE -->\s*<script src="legendary.js"><\/script>/gm,
         ''
       )
       fs.writeFileSync(paths.workbench.html, output, 'utf-8')
