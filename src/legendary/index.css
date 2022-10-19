@@ -14,7 +14,7 @@
   .editor-group-container
   > .title
   .tabs-container
-  > .tab.sizing-fit.active {
+  > .tab.active {
   box-shadow: inset 0 -5px 25px #8744a489;
   position: relative;
 }
@@ -26,16 +26,17 @@
   .editor-group-container
   > .title
   .tabs-container
-  > .tab.sizing-fit.active::after {
+  > .tab.active::after {
   content: '';
+  display: block !important;
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
   height: 55px;
-  width: 80%;
-  background: url(https://assets.codepen.io/28963/fire.png) 90% 60%/80%
+  width: 80% !important;
+  background: url('https://assets.codepen.io/28963/fire.png') 90% 60%/80%
     no-repeat;
   opacity: 0.8;
   z-index: 6;
@@ -47,7 +48,7 @@
   .editor-group-container
   > .title
   .tabs-container
-  > .tab.sizing-fit::after {
+  > .tab::after {
   content: '';
   position: absolute;
   bottom: -1px;
