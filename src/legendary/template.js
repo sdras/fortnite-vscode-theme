@@ -15,7 +15,7 @@
   initLegendary()
 
   // Use a mutation observer to check when we can bootstrap the legendary
-  (new MutationObserver(watchForBootstrap))
+  ;(new MutationObserver(watchForBootstrap))
     .observe(document.body, { attributes: true })
 })()
 
