@@ -1,3 +1,16 @@
+## Version 1.5.0
+- Fix the fire image on active tab
+- **Legendary** bugfix
+
+## Version 1.4.3
+
+- Change IO operations to async
+- Grammar improvements
+
+## Version 1.4.1
+
+- Code optimization and cleanup
+
 ## Version 1.4.0
 
 - Fix **Legendary** activation for VSCode 1.70.0 and above
