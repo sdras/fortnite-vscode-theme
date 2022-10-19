@@ -4,7 +4,7 @@ const vscode = require('vscode')
 const paths = require('./paths')
 
 const enc = { encoding: 'utf-8' }
-const legendaryJs = path.basename(paths.workbench.js)
+const legendaryJs = path.basename(paths.workbench.legendary)
 const reloadCode = () =>
   vscode.commands.executeCommand('workbench.action.reloadWindow')
 const handleError = err => {
