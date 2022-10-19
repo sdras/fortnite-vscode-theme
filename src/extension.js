@@ -4,6 +4,7 @@ const vscode = require('vscode')
 const paths = require('./paths')
 
 const enc = { encoding: 'utf-8' }
+const legendaryJs = path.basename(paths.workbench.js)
 const reloadCode = () =>
   vscode.commands.executeCommand('workbench.action.reloadWindow')
 const handleError = err => {
@@ -37,10 +38,10 @@ async function enableLegendary() {
     await fs.writeFile(paths.workbench.legendary, legendary, enc)
 
     const html = await fs.readFile(paths.workbench.html, enc)
-    if (!html.includes('legendary.js')) {
+    if (!html.includes(legendaryJs)) {
       const output = html.replace(
         '</html>',
-        `\n\t<!-- FORTNITE -->\n\t<script src="legendary.js"></script>\n</html>`
+        `\n\t<!-- FORTNITE -->\n\t<script src="${legendaryJs}"></script>\n</html>`
       )
       await fs.writeFile(paths.workbench.html, output, enc)
 
@@ -68,9 +69,9 @@ async function enableLegendary() {
 async function disableLegendary() {
   try {
     const html = await fs.readFile(paths.workbench.html, enc)
-    if (html.includes('legendary.js')) {
+    if (html.includes(legendaryJs)) {
       let output = html.replace(
-        /\s*<!-- FORTNITE -->\s*<script src="legendary.js"><\/script>/gm,
+        /\s*<!-- FORTNITE -->\s*<script src="${legendaryJs}"><\/script>/gm,
         ''
       )
       await fs.writeFile(paths.workbench.html, output, enc)
