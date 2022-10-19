@@ -45,11 +45,12 @@ function initLegendary() {
       'color: #cfe08a; text-shadow: 0 0 2px #000000, 0 0 5px #5ca2cc;'
     )
   /* append the remaining styles */
-  legendaryStyles += `[CHROME_STYLES]`
+  legendaryStyles += `\n[CHROME_STYLES]`
 
   const newStyleTag = document.createElement('style')
   newStyleTag.setAttribute('id', 'fortnite-theme-styles')
-  newStyleTag.innerText = legendaryStyles
+  newStyleTag.setAttribute('type', 'text/css')
+  newStyleTag.appendChild(document.createTextNode(legendaryStyles))
   document.head.appendChild(newStyleTag)
 
   console.log('Fortnite: LEGENDARY initialized!')
